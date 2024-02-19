@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-sumr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0023-tenant/tkrw-pr712-0075-0023-app/devfile-sample-sumr@sha256:652e8748473c6fde1b29bcc482eb1a39eeae3e9c44404377ee29af0003ac29cf
         name: my-nodejs
         ports:
         - containerPort: 3001
